@@ -4,7 +4,7 @@
   "main": "index.js",
   "author": "GogaComp <goga789goga@gmail.com>",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/GogaComp/electron-boilerplate",
   "scripts": {
     "start": "electron index.js",
     "build": "webpack --mode production",
@@ -35,5 +35,12 @@
     "linux": {
       "target": "deb"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GogaComp/electron-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GogaComp/electron-boilerplate/issues"
   }
 }

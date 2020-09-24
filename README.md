@@ -19,22 +19,10 @@ $ yarn
 ### Start electron:
 
 ```javascript
-$ npm start
-```
-
-or
-
-```javascript
 $ yarn start
 ```
 
 ### Build webpack:
-
-```javascript
-$ npm run build
-```
-
-or
 
 ```javascript
 $ yarn build
@@ -43,11 +31,19 @@ $ yarn build
 ### Generate executable build:
 
 ```javascript
-$ npm run dist
+$ yarn dist
 ```
 
-or
+### Create executable file (package):
+
+#### Windows:
 
 ```javascript
-$ yarn dist
+$ yarn package-win
+```
+
+#### Linux:
+
+```javascript
+$ yarn package-linux
 ```

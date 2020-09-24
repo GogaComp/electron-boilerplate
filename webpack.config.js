@@ -36,6 +36,17 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(jpg|png|webp|ico|svg)$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "img/[name].[ext]",
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [

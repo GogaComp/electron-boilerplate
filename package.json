@@ -6,7 +6,7 @@
   "license": "MIT",
   "homepage": "https://github.com/GogaComp/electron-boilerplate",
   "scripts": {
-    "start": "electron index.js",
+    "start": "webpack --mode production && electron index.js",
     "build": "webpack --mode production",
     "dist": "webpack --mode production && electron-builder",
     "package-linux": "electron-packager . electron-boilerplate --platform=linux --arch=x64",
